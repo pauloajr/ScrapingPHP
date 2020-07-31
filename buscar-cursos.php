@@ -1,7 +1,9 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'src/Buscador.php';
+//Ja efetuado PSR-4
+
+Teste::imprimir();
 
 use Alura\BuscadorDeCursos\Buscador;
 use GuzzleHttp\Client;
@@ -14,6 +16,6 @@ $buscador = new Buscador($client, $crawler);
 $cursos = $buscador->buscar('cursos-online-programacao/php');
 
 foreach ($cursos as $curso){
-    echo $curso . PHP_EOL;
+    echo exibeMensagem($curso);
 }
 ?>

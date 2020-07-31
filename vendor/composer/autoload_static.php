@@ -13,6 +13,7 @@ class ComposerStaticInitc6cbbc4da8af22e1d10381b0c8233ef6
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        'cac76aebf633b0914ae2e31cf56ea396' => __DIR__ . '/../..' . '/Functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -33,6 +34,10 @@ class ComposerStaticInitc6cbbc4da8af22e1d10381b0c8233ef6
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+        ),
+        'A' => 
+        array (
+            'Alura\\BuscadorDeCursos\\' => 23,
         ),
     );
 
@@ -73,6 +78,14 @@ class ComposerStaticInitc6cbbc4da8af22e1d10381b0c8233ef6
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Alura\\BuscadorDeCursos\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+    );
+
+    public static $classMap = array (
+        'Teste' => __DIR__ . '/../..' . '/Teste.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -80,6 +93,7 @@ class ComposerStaticInitc6cbbc4da8af22e1d10381b0c8233ef6
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitc6cbbc4da8af22e1d10381b0c8233ef6::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitc6cbbc4da8af22e1d10381b0c8233ef6::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitc6cbbc4da8af22e1d10381b0c8233ef6::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -19,5 +19,16 @@
              "url": "https://packagist.org"
         },
         { "packagist": false }
-    ]
+    ],
+    "autoload": {
+        "files":[
+            "./Functions.php"
+        ],
+        "classmap": [
+            "./Teste.php"
+        ],
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\" : "src/"
+        }
+    }
 }

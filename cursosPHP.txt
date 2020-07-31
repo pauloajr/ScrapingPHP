@@ -1,0 +1,44 @@
+Curso PHP e MySQL: Introdução a uma webapp
+Curso Introdução ao PHP: Primeiros passos com a linguagem
+Curso Avançando com PHP: Arrays, Strings, Função e Web
+Curso PHP Strings: Operações e expressões regulares
+Curso PHP: Manipulando coleções com Arrays
+Curso PHP: Dominando as Collections
+Curso Orientação a Objetos com PHP: Classes, métodos e atributos
+Curso Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces
+Curso PHP Brasil: Validação de dados no padrão nacional
+Curso PHP Composer: Dependências, Autoload e Publicação
+Curso PHP Exceptions: Tratamento de erros
+Curso PHP I/O: Trabalhando com arquivos e streams
+Curso PHP e BDD: Introdução ao Behavior Driven Development
+Curso Scraping com PHP: Coleta de dados na web
+Curso Avançando no PHP: Introdução à Clean Architecture
+Curso Domain Driven Design com PHP: Introdução aos conceitos
+Curso MVC com PHP: Entenda o padrão Model-View-Controller
+Curso CodeIgniter I: Programando elegantemente para a web
+Curso CodeIgniter II: Mais técnicas e boas práticas 
+Curso Laravel parte 1: Produtividade no desenvolvimento web
+Curso Laravel parte 2: Trabalhando com Autenticação, Relacionamentos e Testes
+Curso Laravel parte 3: Eventos, filas, upload e e-mail
+Curso CakePHP I: Acelere o desenvolvimento web
+Curso CakePHP II: Validação, emails e mais recursos
+Curso Zend Framework: Seu desenvolvimento PHP acelerado
+Curso Zend Framework: Mais prática do seu framework predileto
+Curso PHP e Selenium: Testes de ponta a ponta
+Curso PHP e PDO: Trabalhando com bancos de dados
+Curso PHP Doctrine: Introdução ao Mapeamento Objeto-Relacional
+Curso Mapeamento XML com Doctrine: Acesse um banco de dados já existente
+Curso Recursos avançado do Doctrine: Índices, SQL nativo, funções e stored procedures
+Curso Symfony Parte 1: Criação de uma API Restful
+Curso Symfony Parte 2: Autenticação e HATEOAS
+Curso Symfony Parte 3: Tratamento de erros, cache, logs e testes
+Curso Lumen: API Rest com o Micro-framework do Laravel
+Curso PHP Refatoração: Boas práticas no seu código
+Curso Design Patterns em PHP: Padrões comportamentais
+Curso Design Patterns em PHP: Padrões estruturais
+Curso Design Patterns em PHP: Padrões criacionais
+Curso SOLID com PHP: Princípios da programação orientada a objetos
+Curso PHP e TDD: Testes com PHPUnit
+Curso Mocks em PHP: Entenda os dublês de testes
+Curso Testes de integração com PHP: Testando o acesso à API e ao banco de dados
+Curso PHP Xdebug: Ferramenta de debug e profiling

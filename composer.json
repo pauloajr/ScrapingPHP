@@ -1,0 +1,23 @@
+{
+    "name": "apaulojr/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Paulo Junior",
+            "email": "juniorestudante@hotmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^5.1"
+    },
+    "repositories": [
+        {
+             "type": "composer", 
+             "url": "https://packagist.org"
+        },
+        { "packagist": false }
+    ]
+}
